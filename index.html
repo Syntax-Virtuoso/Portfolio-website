@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashvat Kumar (aka Syntax Virtuoso)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png?v2">
+</head>
+<body class="min-h-screen bg-zinc-900">
+    <header class="bg-zinc-800 text-white sticky top-0 z-10">
+        <section class="max-w-7xl mx-auto p-3 flex justify-between items-center">
+            <div class="flex items-center space-x-5">
+                <img src="favicon.png" class="max-h-11 max-w-11">
+                <h1 class="text-3xl font-bold">Syntax Virtuoso</h1>
+                <h2 class="text-orange-300 text-lg">Shashvat Kumar</h2>
+            </div>
+            <div class="flex space-x-5">
+                <!-- Home Tab -->
+                <a href="#home" class="tab-link rounded-lg px-4 py-2 text-white hover:bg-purple-700 transition duration-300" id="home-tab">
+                    Home
+                </a>
+            
+                <!-- About Tab -->
+                <a href="#about" class="tab-link rounded-lg px-4 py-2 text-white hover:bg-purple-700 transition duration-300" id="about-tab">
+                    About
+                </a>
+            
+                <!-- Skills Tab -->
+                <a href="#skills" class="tab-link rounded-lg px-4 py-2 text-white hover:bg-purple-700 transition duration-300" id="skills-tab">
+                    Skills
+                </a>
+            
+                <!-- Showcase Tab -->
+                <a href="#showcase" class="tab-link rounded-lg px-4 py-2 text-white hover:bg-purple-700 transition duration-300" id="showcase-tab">
+                    Showcase
+                </a>
+            
+                <!-- Contact Tab -->
+                <a href="#contact" class="tab-link rounded-lg px-4 py-2 text-white hover:bg-purple-700 transition duration-300" id="contact-tab">
+                    Contact
+                </a>
+                <div id="active-tab-indicator" class="absolute bottom-0 left-0 w-full h-1 bg-orange-800 transition-all duration-300 ease-in-out"></div>
+            </div>
+        </section>
+    </header>
+    <div class="max-w-5xl mx-auto p-3 flex-col items-center">
+        <div id="home-content" class="page-content opacity-0 hidden transition-opacity duration-500 ease-in-out">
+            
+        </div>
+        <div id="about-content" class="page-content opacity-0 hidden transition-opacity duration-500 ease-in-out">
+            
+        </div>
+        <div id="skills-content" class="page-content opacity-0 hidden transition-opacity duration-500 ease-in-out text-white">
+            <section>
+                <h2 class="text-2xl">🛠️ Skills in coding:</h2>
+                <br>
+                <table class="w-full border-separate border-spacing-y-4" style="border-width: 1px; border-color: rgb(116, 253, 130);">
+                    <thead>
+                        <tr>
+                            <th class="border border-orange-300 p-2 text-green-300"><u>Languages</u></th>
+                            <th class="border border-orange-300 p-2 text-green-300"><u>Frameworks / Libraries</u></th>
+                            <th class="border border-orange-300 p-2 text-green-300"><u>Tools</u></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+                                </div>
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                <img src="https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+                                </div>
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+                                    </div>
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter">
+                                    </div>
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+                                    </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+                                </div>
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
+                                </div>
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+                                </div>
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-Electron.js-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron.js">
+                                </div>
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++">
+                                </div>
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
+                                </div>
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                <div class="inline-flex justify-center items-center w-full h-full">
+                                    <img src="https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <br><br>
+            <img src="https://github-readme-stats-sk.vercel.app/api/top-langs/?username=Syntax-Virtuoso&hide_progress=true">
+        </div>
+        <div id="showcase-content" class="page-content opacity-0 hidden transition-opacity duration-500 ease-in-out">
+            
+        </div>
+        <div id="contact-content" class="page-content opacity-0 hidden transition-opacity duration-500 ease-in-out">
+            
+        </div>
+    </div>
+    <script>
+        // Get all the tab links
+        const tabs = document.querySelectorAll('.tab-link');
+        const indicator = document.getElementById('active-tab-indicator');
+    
+        // Function to update the indicator position and active tab
+        function updateTabIndicator(selectedTab) {
+            const tabRect = selectedTab.getBoundingClientRect();  // Get the position and size of the selected tab
+            const tabWidth = tabRect.width;                        // Width of the selected tab
+            tabLeftPosition = tabRect.left;                  // Left position of the selected tab
+            tabLeftPosition = tabLeftPosition-18;
+            // Update the indicator's position and size
+            indicator.style.width = `${tabWidth}px`;
+            indicator.style.left = `${tabLeftPosition}px`;
+        }
+    
+        // Add event listener for each tab
+        tabs.forEach(tab => {
+            tab.addEventListener('click', function (e) {
+                // Prevent default behavior (page reload)
+                e.preventDefault();
+    
+                // Remove active class from all tabs and hide all content
+                tabs.forEach(tab => tab.classList.remove('bg-purple-700'));
+                document.querySelectorAll('.page-content').forEach(content => {
+                    content.classList.add('opacity-0', 'hidden');
+                });
+    
+                // Add active class to clicked tab
+                tab.classList.add('bg-purple-700');
+    
+                // Get the content ID corresponding to the clicked tab
+                const contentId = tab.getAttribute('href').replace('#', '') + '-content';
+                const contentElement = document.getElementById(contentId);
+    
+                // Show the corresponding content with a smooth fade-in
+                contentElement.classList.remove('hidden');
+                setTimeout(() => contentElement.classList.remove('opacity-0'), 50);  // Wait for the class to be applied
+    
+                // Update the purple box indicator's position
+                updateTabIndicator(tab);
+            });
+        });
+    
+        // Optional: Initialize the first tab and content as active by default
+        document.getElementById('home-tab').classList.add('bg-purple-700');
+        document.getElementById('home-content').classList.remove('hidden');
+        setTimeout(() => document.getElementById('home-content').classList.remove('opacity-0'), 50);
+    
+        // Set the initial position of the indicator
+        updateTabIndicator(document.getElementById('home-tab'));
+    </script>
+</body>
+</html>
